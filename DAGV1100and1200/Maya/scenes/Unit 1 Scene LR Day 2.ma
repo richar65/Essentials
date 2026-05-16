@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
-//Name: Unit 1 Scene LR.ma
-//Last modified: Fri, May 15, 2026 08:06:19 PM
+//Name: Unit 1 Scene LR Day 2.ma
+//Last modified: Fri, May 15, 2026 08:08:42 PM
 //Codeset: 1252
 requires maya "2023";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.2.1.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "62C72825-4292-5430-8F0C-94A1539C870B";
+fileInfo "UUID" "0BE8C174-4351-868E-60AD-8997D0028A39";
 createNode transform -s -n "persp";
 	rename -uid "A4A1E10D-43F8-F91B-0427-0B85B7F16C3C";
 	setAttr ".v" no;
@@ -523,4 +523,4 @@ connectAttr "pCylinderShape1.wm" "polyExtrudeFace1.mp";
 connectAttr "polySplitRing6.out" "polyTweak4.ip";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pCylinderShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of Unit 1 Scene LR.ma
+// End of Unit 1 Scene LR Day 2.ma
