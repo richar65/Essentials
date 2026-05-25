@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: Unit 1 Scene LR Day 2.ma
-//Last modified: Fri, May 22, 2026 09:43:16 PM
+//Last modified: Fri, May 22, 2026 09:49:01 PM
 //Codeset: 1252
 requires maya "2023";
 requires -nodeType "polyBoolean" "polyBoolean" "1.1";
@@ -12,11 +12,11 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "8F086A65-41E1-567E-7C6A-299829CCF6E2";
+fileInfo "UUID" "5E3B818F-4F0F-2718-4F99-44B45F93BD4C";
 createNode transform -s -n "persp";
 	rename -uid "A4A1E10D-43F8-F91B-0427-0B85B7F16C3C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -42.300950196665809 34.625737452029973 50.083715014524202 ;
+	setAttr ".t" -type "double3" -44.176513163068087 32.575656907348836 49.268280381275332 ;
 	setAttr ".r" -type "double3" -17.738352729559704 -42.200000000000699 3.2200340319896181e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B2040C6D-4B1D-906B-DCD0-CA91C9F8F014";
